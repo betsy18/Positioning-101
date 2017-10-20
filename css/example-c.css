@@ -1,0 +1,25 @@
+/*aplicando positioning relative, que es la posicion
+por conserva su espacio y toma como referencia su posicion inicial*/
+
+#box_1 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+/*Se mueve un poco a la izquierda*/
+#box_2 { 
+	position: relative;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}

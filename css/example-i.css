@@ -1,0 +1,12 @@
+
+/*aplicando positioning static, que es la posicion
+por defecto de un elemento*/
+#box_1 {
+	padding: 10px;
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	right: 0; 
+	width: 1600px;
+	background-color: gray;
+}
